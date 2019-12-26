@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab",
+    "van-tabs": "@vant/weapp/tabs",
+    "van-button": "@vant/weapp/button",
+    "van-field": "@vant/weapp/field"
+  },
+  "navigationBarBackgroundColor": "#1296db",
+  "navigationBarTitleText": "欢乐一刻",
+  "navigationBarTextStyle": "white"
+}

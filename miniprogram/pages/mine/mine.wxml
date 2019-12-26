@@ -1,0 +1,13 @@
+<image class="head" src="../../images/timg.gif">
+  <view class="myimg">
+    <open-data type="userAvatarUrl" class="info_img"></open-data>
+  </view>
+  <view class="info">
+    <open-data type="userNickName"></open-data>
+  </view>
+</image>
+<view class="mine_list">
+  <view class="mine_btn">我的作品</view>
+  <view class="mine_blank"></view>
+  <view class="mine_btn">意见与反馈</view>
+</view>

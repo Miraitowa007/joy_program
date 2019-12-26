@@ -1,0 +1,42 @@
+.head{
+  width: 100%;
+  height: 300rpx;
+}
+
+.myimg{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  overflow: hidden;/*把头像变为圆形*/
+  position: absolute;
+  left:50%;
+  margin-left: -100rpx;
+  top:200rpx;
+}
+.info_img{
+  border-radius: 50%;
+}
+.info{
+  position: absolute;
+  top: 400rpx;
+  left: 250rpx;
+}
+.mine_list{
+  width:100%;
+  height:160rpx;
+  position:absolute;
+  top:480rpx;
+  background:#eeeeee
+}
+.mine_btn{
+  width:700rpx;
+  height: 80rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  padding-left:20rpx;
+}
+.mine_blank{
+  width: 100%;
+  height: 4rpx;
+  background: #fff;
+}

@@ -1,0 +1,12 @@
+.joylist{
+  width: 710rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #dddddd;
+}
+.joyimg{
+width: 100%;
+}
+.joyinfo{
+  font-size: 20px;
+  font-weight: bold;
+}

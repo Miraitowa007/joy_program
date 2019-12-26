@@ -1,0 +1,6 @@
+<view wx:for="{{joylist}}"wx:key="index" bindtap="getDetail" class="joylist">
+  <image class="joyimg" src="{{item.thumbnail}}"  data-id="{{item.sid}}"></image>
+  <view class="joyinfo">
+    <view>{{item.text}}</view>
+  </view>
+</view>

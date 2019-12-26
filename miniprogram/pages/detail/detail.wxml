@@ -1,0 +1,46 @@
+<video src="{{details.video}}" class="video" ></video>
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="简介" class="text">
+    {{details.text}}
+  </van-tab>
+  <van-tab title="评论" class="allinfo">
+    <image src="{{details.header}}" class="header"></image>
+    <view class="info">
+      <view>
+        {{details.name}}
+      </view>
+      <view>
+        {{details.passtime}}
+      </view>
+    </view>
+    <view class="comment">
+      {{details.top_comments_content}}
+    </view>
+    <view wx:for="{{comments}}" wx:key="{{index}}" wx:if="comments.length">
+    <view class="allinfo">
+      <view class="header" >
+        <open-data type="userAvatarUrl" class="header"></open-data>
+      </view>
+      <view class="info">
+        <view >
+          <open-data type="userNickName"></open-data>
+        </view>
+        <view>
+          {{item.passtime}}
+        </view>
+      </view>
+      </view>
+      <view class="comment">
+        {{item.value}}
+      </view>
+    </view>
+    <van-field
+    value="{{ value }}"
+    placeholder="写一下评论吧"
+    border="{{ false }}"
+    bind:change="onChange"
+  />
+  <van-button type="primary" size="large" bindtap="gotocomment" >发表评论</van-button>
+  </van-tab>  
+</van-tabs>
+
